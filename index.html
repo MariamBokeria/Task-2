@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form</title>
+    <style>
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 10px;
+    }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Control Type</th>
+            <th>Data</th>
+            <th>Control</th>            
+        </tr>
+
+        <tr>
+            <td>Text box</td>
+            <td>Name:</td>            
+            <td>
+                <form>
+                    <input type="text" name="Enter name" placeholder="Enter name">
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Password</td>
+            <td>Password:</td>
+            <td>
+                <form>
+                    <input type="password" name="password">
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Text area</td>
+            <td>Address:</td>
+            <td>
+                <textarea name="text" rows="5" cols="40" placeholder="Enter addrss"></textarea>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Drop down list</td>
+            <td>Area:</td>
+            <td>
+                <select name="area">
+                    <option value="left">Center</option>
+                    <option value="center">Left</option>
+                    <option value="right">Right</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Check box</td>
+            <td>Hobbies:</td>
+            <td>
+                <form>
+                    <input type="checkbox" name="Hobbies">Sport<br>
+                    <input type="checkbox" name="Hobbies">Reading<br>
+                    <input type="checkbox" name="Hobbies">T.V.<br>
+                    <input type="checkbox" name="Hobbies">Internet
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Radio Buttons</td>
+            <td>Gender:</td>
+            <td>
+                <fieldset>
+                    <legend>Gender selection</legend>
+                    <input type="radio" name="gender">Male<br>
+                    <input type="radio" name="gender">Fimale
+                </fieldset>
+            </td>
+        </tr>
+
+        <tr>
+            <td>File upload</td>
+            <td>Your image:</td>
+            <td>
+                <input type="file" name="image">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Buttons</td>
+            <td>Actions:</td>
+            <td>
+                <form>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                    <input type="button" value="Button">
+                </form>
+            </td>
+        </tr>
+        
+    </table>
+</body>
+</html>
